@@ -1,6 +1,18 @@
 body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
+.body{
+    color: black;
+    text-align: center;
+    text-align: justify;
+    margin-right: 10%;
+   
+}
+#under-line{
+    text-decoration: none;
+    color: black;
+    padding-left: 3%;
+}
 h1{
     font-size: 50px;
 }
@@ -24,10 +36,11 @@ p{
 }
 .half-width img{
     width: 100%;
+    margin: 15%;
 }
 section{
-    height: 700px;
-    padding-bottom: 250px;
+    height: 550px;
+    padding-bottom: 40px;
     padding-left: 50px;
 }
 .margin1{
@@ -48,12 +61,64 @@ section{
     width: 60%;
     
 }
+.my-skill{
+    color: red;
+    text-align: center;
+}
+.skill{
+    text-align: center;
+    color: orangered;
+    float:left;
+    width: 15%;
+    margin-left: 5% ;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 10px rgb(185, 184, 184);
+}
+
+
+
+
 #new3{
     margin-left: 20%;
 }
 #new4{
     text-align: center;
 }
+.shape{
+    margin-top: 5px;
+    background-position: center;
+    background-image: url(shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 750px;
+    height: 350px;   
+
+}
+
+#shape1{
+    
+    color: white;
+    text-align: left;
+    padding-top: 130px;
+    padding-right: 200px;
+    
+}
+.shape2{
+    text-align: center;
+    margin-left: 300px;
+    
+}
+.chat{
+    margin-left: 800px;    
+    background-color: #af8c4c;
+    border-radius: 10px;
+    border: none;
+    color: rgb(24, 23, 27);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, red, maroon);
@@ -71,4 +136,8 @@ section{
 }
 .stay1{
     text-decoration: none;
+}
+#icon{
+    padding-left: 40px;
+    size: 30%;
 }
